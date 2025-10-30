@@ -80,7 +80,12 @@ if submit_button:
                         "Description": output_df['Description'],
                         "Group": output_df['Group'],
                         "BOM Quantity": output_df['Quantity'],
-                        "Life Cycle Limit": output_df['Limit']
+                        "Life Cycle Limit": output_df['Limit'],
+                        "ProductName": output_df['ProductName'],
+                        "Vendor": output_df['Vendor'],
+                        "DefaultMinQuantity": output_df['DefaultMinQuantity'],
+                        "Related to ACC-KIT": output_df['Related to ACC-KIT'],
+                        "Relation": output_df['Relation']
                     })
 
                     # Display results
